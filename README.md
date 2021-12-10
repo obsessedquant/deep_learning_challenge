@@ -71,7 +71,7 @@ Optimize the model in order to achieve a target predictive accuracy higher than 
 2. Import the dependencies, and read in the `charity_data.csv` to a Pandas DataFrame.
 3. Preprocess the dataset like in Step 1, taking into account any modifications to optimize the model.
 4. Design a neural network model, taking into account any modifications that will optimize the model to achieve higher than 75% accuracy.
-5. Save and export your results to an HDF5 file, and name it `AlphabetSoupCharity_Optimization.h5`.
+5. Save and export the results to an HDF5 file, and name it `AlphabetSoupCharity_Optimization.h5`.
 
 ### Step 4: Write a Report on the Neural Network Model
 

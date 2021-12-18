@@ -1,5 +1,9 @@
 # Deep Learning Challenge: Charity Funding Predictor
 
+## Results at a Glance
+
+![results](Images/results.png)
+
 ## Background
 
 The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful.  Use the features in the provided dataset to create a binary classifier based on machine learning and neural networks that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.

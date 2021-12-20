@@ -34,4 +34,10 @@ The best performing model for this study was a Sigmoid activation function with 
   
 Using a Leaky ReLU or SELU activation function in place of the ReLU function could yield better accuracy results as it avoids the well known problem of dying ReLU. Dying ReLU refers to the issue of some neurons effectively dying during training meaning that they stop outputting anything other than 0. The assumption is that the sigmoid activation function appeared to have superior performance due to the ReLU activation function failing to perform due to dying ReLU. To perform the SELU activation function will require more computational resources.  
   
-Also, the dispersion in the 'ASK_AMT' is very large but is still relevant. Another recommendation is to bin the 'ASK_AMT' data into log base 10 bins, e.g. 1,000 to 10,000, 10,000 to 100,000, 100,000 to 1,000,000, etc. By converting this data into bins, it can then be converted using the get_dummies function. This could improve the accuracy of the model prediction.
+Also, the dispersion in the 'ASK_AMT' is very large but is still relevant. Another recommendation is to bin the 'ASK_AMT' data into log base 10 bins, e.g. 1,000 to 10,000, 10,000 to 100,000, 100,000 to 1,000,000, etc. By converting this data into bins, it can then be converted using the get_dummies function. This could improve the accuracy of the model prediction.  
+
+## Update
+
+The log base 10 'ASK_AMT' column binning method was used and the learning model rerun. Model accuracy came out to 73.25% which is less than the non 'ASK_AMT' binning method.  
+  
+For reference, the optimal hyperparameters came out to the Sigmoid activation function, and 21/17/23/19/5 neurons configuration with 5 hidden layers.
